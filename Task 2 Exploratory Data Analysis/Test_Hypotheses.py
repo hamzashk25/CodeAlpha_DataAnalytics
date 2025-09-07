@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 # Test hypotheses and validate assumptions using statistics and visualization
-df=pd.read_excel("Cleaned_Covid_Data_01.xlsx", sheet_name="Sheet1")
+df=pd.read_excel("Cleaned_Covid_Data.xlsx", sheet_name="Sheet1")
 
 # Hypothesis: Higher testing rates correlate with lower death rates
 plt.figure(figsize=(8,6))

@@ -16,7 +16,7 @@ for q in questions:
     print(q)
 
 # df=pd.read_csv("sales_data_sample.csv", encoding="latin1")
-df=pd.read_excel("Cleaned_Covid_Data_01.xlsx", sheet_name="Sheet1")
+df=pd.read_excel("Cleaned_Covid_Data.xlsx", sheet_name="Sheet1")
 
 # Explore the data structure, including variables and data types
 

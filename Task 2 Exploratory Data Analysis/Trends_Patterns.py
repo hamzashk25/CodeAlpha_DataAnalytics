@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 # df=pd.read_csv("sales_data_sample.csv", encoding="latin1")
-df=pd.read_excel("Cleaned_Covid_Data_01.xlsx", sheet_name="Sheet1")
+df=pd.read_excel("Cleaned_Covid_Data.xlsx", sheet_name="Sheet1")
 
 # Trends 
 # Use a log scale because the data is spread over several orders of magnitude

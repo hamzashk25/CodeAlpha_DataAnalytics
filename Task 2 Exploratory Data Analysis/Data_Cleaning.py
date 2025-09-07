@@ -2,7 +2,7 @@ import pandas as pd
 import numpy as np
 
 # df=pd.read_csv("sales_data_sample.csv", encoding="latin1")
-df=pd.read_excel("Covid/covid_data.xlsx")
+df=pd.read_excel("Task 1 Web Scraping\covid_data.xlsx")
 
 print(df.head())
 print(df.info())
@@ -33,4 +33,4 @@ df['Cases per million']=df["Total Cases"] / df["Population"] * 1e6
 df['Death per million']=df["Total Deaths"] / df["Population"] * 1e6
 df['Tests per thousand'] = df['Total Tests'] / df['Population'] * 1e3
 
-df.to_excel("Cleaned_Covid_Data_01.xlsx",index=False)
+df.to_excel("Cleaned_Covid_Data.xlsx",index=False)
